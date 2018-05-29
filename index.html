@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         ul {
+            position: fixed;
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -29,19 +30,56 @@
             background-color: #555;
             color: white;
         }
+        .dropdown-container {
+            display: none;
+            padding-left: 8px;
+        }
+        .active {
+            background-color: darkcyan;
+            color: white;
+        }
     </style>
 </head>
 <body>
 
 <h2>My HTML projects</h2>
 
+<div class="sidenav">
 <ul>
     <li><a class="active" href="#home">Home</a></li>
     <li><a href="codiceFiscale.html">Calcola codice fiscale</a></li>
     <li><a href="form1.html">Form 1</a></li>
     <li><a href="form2uni.html">Form 2 (uni)</a></li>
     <li><a href="verificaBMI.html">Calcola BMI</a></li>
+    <button class="dropdown-btn">SchedeLavoro
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">SL1</a>
+        <a href="#">SL2</a>
+        <a href="#">Link 3</a>
+    </div>
 </ul>
+</div>
+
+
+<script>
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+</script>
+
 
 </body>
 </html>
