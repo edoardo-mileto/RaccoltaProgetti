@@ -5,9 +5,10 @@
     <link rel="icon" href="icon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <style>
         html *{
-            font-family: Roboto
+            font-family: 'Montserrat',serif;
         }
         body{
             background-image: url("background.jpg") ;
@@ -30,24 +31,68 @@
             color: #000;
             padding: 8px 16px;
             text-decoration: none;
+
         }
 
         li a.active {
             background-color: darkcyan;
             color: white;
+            text-align: center;
         }
 
         li a:hover:not(.active) {
             background-color: #555;
             color: white;
         }
-        .dropdown-container {
-            display: none;
-            padding-left: 8px;
-        }
+
         .active {
             background-color: darkcyan;
             color: white;
+        }
+        .dropbtn {
+            background-color: darkcyan;
+            color: white;
+            padding: 8px 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 200px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            width: 200px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 8px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: darkcyan;
         }
     </style>
 </head>
@@ -64,7 +109,7 @@
     <li><a href="progetti/form2uni.html">Form 2 uni(SL09)</a></li>
     <li><a href="progetti/simonsGame.html">Gioco di Simone (SL11)</a> </li>
     <li><a href="progetti/verificaBMI.html">Calcola BMI(Verifica)</a></li>
-    <button class="dropdown-btn">SchedeLavoro
+    <!--<button class="dropdown-btn">SchedeLavoro
         <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-container">
@@ -72,6 +117,15 @@
         <a href="SL/SL09.docx">SL09</a>
         <a href="SL/SL10.docx">SL10</a>
         <a href="SL/SL11.doc">SL11</a>
+    </div>-->
+    <div class="dropdown">
+        <button class="dropbtn">SchedeLavoro</button>
+        <div class="dropdown-content">
+            <a href="SL/SL08/SL08.docx">SL08</a>
+            <a href="SL/SL09.docx">SL09</a>
+            <a href="SL/SL10.docx">SL10</a>
+            <a href="SL/SL11.doc">SL11</a>
+        </div>
     </div>
 </ul>
 </div>
