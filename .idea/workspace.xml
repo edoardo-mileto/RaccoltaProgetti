@@ -58,7 +58,7 @@
       <file leaf-file-name="form2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/form2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="302">
               <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
             </state>
           </provider>
@@ -88,8 +88,8 @@
         <option value="$PROJECT_DIR$/progetti/codiceFiscale.css" />
         <option value="$PROJECT_DIR$/progetti/form2uni.html" />
         <option value="$PROJECT_DIR$/progetti/form2.css" />
-        <option value="$PROJECT_DIR$/progetti/form1.css" />
         <option value="$PROJECT_DIR$/progetti/form1.html" />
+        <option value="$PROJECT_DIR$/progetti/form1.css" />
       </list>
     </option>
   </component>
@@ -165,12 +165,12 @@
       <workItem from="1527627363972" duration="1481000" />
       <workItem from="1527629390406" duration="184000" />
       <workItem from="1527630450656" duration="75000" />
-      <workItem from="1547573360212" duration="3714000" />
+      <workItem from="1547573360212" duration="4000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5454000" />
+    <option name="totallyTimeSpent" value="5740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -294,15 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/form2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="340">
+          <caret line="44" column="25" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="44" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -316,17 +309,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/form1.css">
+    <entry file="file://$PROJECT_DIR$/progetti/form2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="302">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/form1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="68" column="76" selection-start-line="68" selection-start-column="76" selection-end-line="68" selection-end-column="76" />
+        <state relative-caret-position="421">
+          <caret line="68" column="95" selection-start-line="68" selection-start-column="89" selection-end-line="68" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/form1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
         </state>
       </provider>
     </entry>
