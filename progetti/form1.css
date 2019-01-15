@@ -1,3 +1,6 @@
+html *{
+    font-family: 'Montserrat';
+}
 div#wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -11,7 +14,7 @@ div#form_wrapper{
 }
 h1{
      color: midnightblue;
-
+     padding-left: 130px;
  }
 input[type=text],input[type=email], select {
     width: 100%;
@@ -23,27 +26,30 @@ input[type=text],input[type=email], select {
     box-sizing: border-box;
 }
 
-input[type=reset]#reset, input[type=submit]#invia {
-    width: 80px;
-    margin-right: 10px;
-    background-color: white;
-}
-input[type=reset]#reset {
-    background-color: darkcyan;
-    color: white;
-    margin-right: 20px;
-    border-radius: 4px;
-    padding: 6px 20px;
-}
 input[type=reset]:hover #reset{
     background-color: darkslategrey;
 }
+input[type=reset]#reset {
+
+    width: 100%;
+    background-color: lightgrey;
+    color: black;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+
 input[type=submit]#send {
+    width: 100%;
     background-color: darkcyan;
     color: white;
-    margin-right: 0px;
+    margin: 8px 0;
+    border: none;
     border-radius: 4px;
-    padding: 6px 20px;
+    cursor: pointer;
+    padding: 8px 20px;
 }
 input[type=submit]:hover #send {
     background-color: darkslategrey;

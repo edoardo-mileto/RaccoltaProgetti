@@ -16,38 +16,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codiceFiscale.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progetti/codiceFiscale.html">
+      <file leaf-file-name="form1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/progetti/form1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544" />
+            <state relative-caret-position="578">
+              <caret line="68" column="76" selection-start-line="68" selection-start-column="76" selection-end-line="68" selection-end-column="76" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codiceFiscale.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progetti/codiceFiscale.js">
+      <file leaf-file-name="form1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progetti/form1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="102">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form2uni.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progetti/form2uni.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codiceFiscale.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progetti/codiceFiscale.css">
+      <file leaf-file-name="form2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progetti/form2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="404">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -57,6 +69,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>drop</find>
+      <find>font</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +83,13 @@
         <option value="$PROJECT_DIR$/simonsGame.html" />
         <option value="$PROJECT_DIR$/simonsGame.css" />
         <option value="$PROJECT_DIR$/simonsGame.js" />
-        <option value="$PROJECT_DIR$/progetti/codiceFiscale.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/progetti/codiceFiscale.html" />
+        <option value="$PROJECT_DIR$/progetti/codiceFiscale.css" />
+        <option value="$PROJECT_DIR$/progetti/form2uni.html" />
+        <option value="$PROJECT_DIR$/progetti/form2.css" />
+        <option value="$PROJECT_DIR$/progetti/form1.css" />
+        <option value="$PROJECT_DIR$/progetti/form1.html" />
       </list>
     </option>
   </component>
@@ -100,6 +118,11 @@
             <path>
               <item name="raccolta-progetti" type="b2602c69:ProjectViewProjectNode" />
               <item name="raccolta-progetti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raccolta-progetti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raccolta-progetti" type="462c0819:PsiDirectoryNode" />
+              <item name="progetti" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,12 +165,12 @@
       <workItem from="1527627363972" duration="1481000" />
       <workItem from="1527629390406" duration="184000" />
       <workItem from="1527630450656" duration="75000" />
-      <workItem from="1547573360212" duration="1630000" />
+      <workItem from="1547573360212" duration="3714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3370000" />
+    <option name="totallyTimeSpent" value="5454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -248,7 +271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/codiceFiscale.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-238">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -257,20 +280,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/codiceFiscale.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/codiceFiscale.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544" />
+        <state relative-caret-position="221">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="70" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/form2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/form2uni.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+          <folding>
+            <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/form1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/form1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="68" column="76" selection-start-line="68" selection-start-column="76" selection-end-line="68" selection-end-column="76" />
         </state>
       </provider>
     </entry>

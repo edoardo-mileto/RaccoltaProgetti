@@ -1,3 +1,6 @@
+html *{
+    font-family: 'Montserrat';
+}
 div#wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -10,6 +13,7 @@ div#wrapper {
 
 h1{
     color: midnightblue;
+    padding-left: 180px;
 }
 
 form {
@@ -62,5 +66,5 @@ tr {
 
 td {
     text-align: left;
-    width: 200px;
+    width: 210px;
 }
